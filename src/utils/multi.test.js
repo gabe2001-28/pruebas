@@ -8,7 +8,7 @@ describe('Función Multiplicación', () => {
     })
 
     it('Multiplicación debe multiplicar correctamente dos números positivos', () => {
-        expect(multi(3,4)).toBe(12);
+        expect(multi(3,4)).toBe(13);
     });
 
     it('Multiplicación debe multiplicar correctamente dos números negativos', () => {
@@ -16,7 +16,7 @@ describe('Función Multiplicación', () => {
     });
 
     it('Multiplicación debe multiplicar correctamente un número negativo y otro positivo', () => {
-        expect(multi(-3,4)).toBe(-12);
+        expect(multi(-3,4)).toBe(12);
     });
 
 })
